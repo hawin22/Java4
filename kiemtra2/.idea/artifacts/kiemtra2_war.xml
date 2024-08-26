@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="kiemtra2:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>kiemtra2</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="kiemtra2-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="kiemtra2:war exploded" />
+    </root>
+  </artifact>
+</component>
